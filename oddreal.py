@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Título do aplicativo
-st.title("Calculadora de Odd Real com Comissão da Exchange")
+st.title("Calculadora de Odd Real")
 
 # Entrada de dados
 valor_apostado = st.number_input("Valor Apostado (R$)", min_value=0.0, format="%.2f")
